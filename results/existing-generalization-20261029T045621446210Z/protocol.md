@@ -1,3 +1,13 @@
+# Preregistration publication record
+
+Verbatim-task commit: `a876e25986feea9ae3751256779741f61a6f4e66`
+
+Successful protocol push observed by this client at: `2026-10-29T04:56:43.650435+00:00` (UTC; observation time, not GitHub server receipt time).
+
+This header is committed separately. The task below is verbatim. No sessions have run.
+
+---
+
 TASK: Cheap generalization check — does "read-then-still-create" duplication happen outside Llama 3.1 8B?
 
 CONTEXT
