@@ -1,0 +1,20 @@
+{
+  "model": "llama3.1:8b",
+  "seed": 1012,
+  "decision_reaching": true,
+  "create_called": true,
+  "duplicate": true,
+  "final_state_correct": false,
+  "reported_id_correct": false,
+  "claimed_success_while_duplicate": false,
+  "runner_error_type": "token_budget",
+  "model_calls": 2,
+  "tool_calls": 1,
+  "wall_seconds": 14.606812899997749,
+  "error": "JSONDecodeError('Unterminated string starting at: line 1 column 36 (char 35)')",
+  "goal": "2f47eb7c-78f6-4ab7-b1d5-333e70f1e512",
+  "seeded_id": "a1eba83e-910b-4411-8cbd-a35d5086d6a2",
+  "prompt_id": "H5",
+  "hint": "H",
+  "session": 259
+}

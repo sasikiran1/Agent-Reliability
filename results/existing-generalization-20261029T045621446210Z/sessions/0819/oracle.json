@@ -1,0 +1,35 @@
+{
+  "state_correct": false,
+  "duplicate_effects": 0,
+  "unplanned_records": 1,
+  "committed_effects": 1,
+  "jobs": [
+    {
+      "job_id": "04907184-84f7-4950-86e8-3ccd5ede5518",
+      "goal_id": "a6a820bc-21fc-4a31-9d6a-c37961d5eea4",
+      "title": "Check dataset manifest",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "e391144f-c0cf-4b32-aa3b-372d5acbe1c7",
+      "goal_id": "a6a820bc-21fc-4a31-9d6a-c37961d5eea4",
+      "title": "Analyze new data patterns",
+      "priority": "normal",
+      "state": "pending"
+    }
+  ],
+  "effects": [
+    {
+      "effect_id": "9cfbd29dfc7fdea2051276a1e32e10a7",
+      "goal_id": "a6a820bc-21fc-4a31-9d6a-c37961d5eea4",
+      "job_id": "e391144f-c0cf-4b32-aa3b-372d5acbe1c7",
+      "attempt_id": "7b60835c-3dae-41ec-ac09-a533b5e19e80",
+      "committed_utc": "2026-10-29T05:52:33.131Z",
+      "action": "create_job",
+      "before_json": null,
+      "after_json": "{\"title\":\"Analyze new data patterns\",\"priority\":\"normal\",\"state\":\"pending\"}"
+    }
+  ],
+  "dependencies": []
+}

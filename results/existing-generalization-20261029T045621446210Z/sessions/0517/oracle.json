@@ -1,0 +1,35 @@
+{
+  "state_correct": false,
+  "duplicate_effects": 0,
+  "unplanned_records": 1,
+  "committed_effects": 1,
+  "jobs": [
+    {
+      "job_id": "38227698-6be1-424c-a567-192144ed0e62",
+      "goal_id": "27de7a28-0b08-4ca0-951e-424d7858cbd7",
+      "title": "Check dataset manifest",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "9fa61569-dda5-4b3d-9e3e-7865c35e52f1",
+      "goal_id": "27de7a28-0b08-4ca0-951e-424d7858cbd7",
+      "title": "Process dataset",
+      "priority": "high",
+      "state": "pending"
+    }
+  ],
+  "effects": [
+    {
+      "effect_id": "d57c628ac7097bf2f765a0ac754e9501",
+      "goal_id": "27de7a28-0b08-4ca0-951e-424d7858cbd7",
+      "job_id": "9fa61569-dda5-4b3d-9e3e-7865c35e52f1",
+      "attempt_id": "e4ccefbc-acbb-4a7e-b3e8-08c71af6279a",
+      "committed_utc": "2026-10-29T05:14:46.436Z",
+      "action": "create_job",
+      "before_json": null,
+      "after_json": "{\"title\":\"Process dataset\",\"priority\":\"high\",\"state\":\"pending\"}"
+    }
+  ],
+  "dependencies": []
+}

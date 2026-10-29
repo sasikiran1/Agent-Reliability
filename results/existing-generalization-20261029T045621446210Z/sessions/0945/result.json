@@ -1,0 +1,20 @@
+{
+  "model": "gpt-oss:20b",
+  "seed": 1015,
+  "decision_reaching": false,
+  "create_called": false,
+  "duplicate": false,
+  "final_state_correct": true,
+  "reported_id_correct": false,
+  "claimed_success_while_duplicate": false,
+  "runner_error_type": "other",
+  "model_calls": 2,
+  "tool_calls": 1,
+  "wall_seconds": 5.359788099995058,
+  "error": "<HTTPError 500: 'Internal Server Error'>",
+  "goal": "61f9813a-a926-437a-8cac-ce17a39b3199",
+  "seeded_id": "b4218cae-6de4-46ec-aa4f-87217c1d396f",
+  "prompt_id": "H2",
+  "hint": "H",
+  "session": 945
+}

@@ -1,0 +1,20 @@
+{
+  "model": "gpt-oss:20b",
+  "seed": 1004,
+  "decision_reaching": true,
+  "create_called": true,
+  "duplicate": true,
+  "final_state_correct": false,
+  "reported_id_correct": false,
+  "claimed_success_while_duplicate": false,
+  "runner_error_type": "output_protocol",
+  "model_calls": 2,
+  "tool_calls": 1,
+  "wall_seconds": 2.612072600000829,
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "goal": "e0efa26a-576b-4444-a4df-419976991772",
+  "seeded_id": "2574662e-ad0c-438e-8b0c-30e8fe6d9cce",
+  "prompt_id": "N5",
+  "hint": "N",
+  "session": 992
+}

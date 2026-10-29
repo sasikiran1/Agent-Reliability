@@ -1,0 +1,366 @@
+{
+  "verdict": "REAL FINDING",
+  "reason": "A qualifying non-Llama lower bound exceeds 2%.",
+  "models": [
+    {
+      "model": "qwen3.5:4b",
+      "hint": null,
+      "duplicates": 44,
+      "decision_reaching": 150,
+      "ci_low": 0.22190631602239147,
+      "ci_high": 0.37312420369526766,
+      "errors": {
+        "none": 145,
+        "output_protocol": 0,
+        "token_budget": 5,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 39,
+      "qualifies": true
+    },
+    {
+      "model": "llama3.1:8b",
+      "hint": null,
+      "duplicates": 150,
+      "decision_reaching": 150,
+      "ci_low": 0.9757074028339061,
+      "ci_high": 1.0,
+      "errors": {
+        "none": 149,
+        "output_protocol": 0,
+        "token_budget": 1,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 149,
+      "qualifies": true
+    },
+    {
+      "model": "gemma4:12b",
+      "hint": null,
+      "duplicates": 60,
+      "decision_reaching": 150,
+      "ci_low": 0.32096300974158976,
+      "ci_high": 0.48306869183024526,
+      "errors": {
+        "none": 150,
+        "output_protocol": 0,
+        "token_budget": 0,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 60,
+      "qualifies": true
+    },
+    {
+      "model": "hf.co/bartowski/Mistral-Nemo-Instruct-2407-GGUF:Q4_K_M",
+      "hint": null,
+      "duplicates": 75,
+      "decision_reaching": 150,
+      "ci_low": 0.4173574102957893,
+      "ci_high": 0.5826425897042673,
+      "errors": {
+        "none": 150,
+        "output_protocol": 0,
+        "token_budget": 0,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 75,
+      "qualifies": true
+    },
+    {
+      "model": "hf.co/unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF:Q4_K_M",
+      "hint": null,
+      "duplicates": 95,
+      "decision_reaching": 126,
+      "ci_low": 0.6693165548850399,
+      "ci_high": 0.8263071393577934,
+      "errors": {
+        "none": 139,
+        "output_protocol": 0,
+        "token_budget": 11,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 91,
+      "qualifies": false
+    },
+    {
+      "model": "phi4-mini:3.8b",
+      "hint": null,
+      "duplicates": 88,
+      "decision_reaching": 150,
+      "ci_low": 0.5034685133763941,
+      "ci_high": 0.6663715804104464,
+      "errors": {
+        "none": 150,
+        "output_protocol": 0,
+        "token_budget": 0,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 88,
+      "qualifies": true
+    },
+    {
+      "model": "gpt-oss:20b",
+      "hint": null,
+      "duplicates": 76,
+      "decision_reaching": 121,
+      "ci_low": 0.5355584335047958,
+      "ci_high": 0.7142113674054547,
+      "errors": {
+        "none": 97,
+        "output_protocol": 47,
+        "token_budget": 2,
+        "timeout": 0,
+        "other": 4
+      },
+      "claimed_success_while_duplicate": 51,
+      "qualifies": false
+    }
+  ],
+  "hint_split": [
+    {
+      "model": "qwen3.5:4b",
+      "hint": "H",
+      "duplicates": 0,
+      "decision_reaching": 75,
+      "ci_low": 0.0,
+      "ci_high": 0.047995064055142256,
+      "errors": {
+        "none": 75,
+        "output_protocol": 0,
+        "token_budget": 0,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 0,
+      "qualifies": null
+    },
+    {
+      "model": "qwen3.5:4b",
+      "hint": "N",
+      "duplicates": 44,
+      "decision_reaching": 75,
+      "ci_low": 0.4670271413403517,
+      "ci_high": 0.6992463663109476,
+      "errors": {
+        "none": 70,
+        "output_protocol": 0,
+        "token_budget": 5,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 39,
+      "qualifies": null
+    },
+    {
+      "model": "llama3.1:8b",
+      "hint": "H",
+      "duplicates": 75,
+      "decision_reaching": 75,
+      "ci_low": 0.9520049359448393,
+      "ci_high": 1.0,
+      "errors": {
+        "none": 74,
+        "output_protocol": 0,
+        "token_budget": 1,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 74,
+      "qualifies": null
+    },
+    {
+      "model": "llama3.1:8b",
+      "hint": "N",
+      "duplicates": 75,
+      "decision_reaching": 75,
+      "ci_low": 0.9520049359448393,
+      "ci_high": 1.0,
+      "errors": {
+        "none": 75,
+        "output_protocol": 0,
+        "token_budget": 0,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 75,
+      "qualifies": null
+    },
+    {
+      "model": "gemma4:12b",
+      "hint": "H",
+      "duplicates": 0,
+      "decision_reaching": 75,
+      "ci_low": 0.0,
+      "ci_high": 0.047995064055142256,
+      "errors": {
+        "none": 75,
+        "output_protocol": 0,
+        "token_budget": 0,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 0,
+      "qualifies": null
+    },
+    {
+      "model": "gemma4:12b",
+      "hint": "N",
+      "duplicates": 60,
+      "decision_reaching": 75,
+      "ci_low": 0.6916739106298451,
+      "ci_high": 0.8835178514092472,
+      "errors": {
+        "none": 75,
+        "output_protocol": 0,
+        "token_budget": 0,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 60,
+      "qualifies": null
+    },
+    {
+      "model": "hf.co/bartowski/Mistral-Nemo-Instruct-2407-GGUF:Q4_K_M",
+      "hint": "H",
+      "duplicates": 15,
+      "decision_reaching": 75,
+      "ci_low": 0.11648214859073563,
+      "ci_high": 0.3083260893701276,
+      "errors": {
+        "none": 75,
+        "output_protocol": 0,
+        "token_budget": 0,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 15,
+      "qualifies": null
+    },
+    {
+      "model": "hf.co/bartowski/Mistral-Nemo-Instruct-2407-GGUF:Q4_K_M",
+      "hint": "N",
+      "duplicates": 60,
+      "decision_reaching": 75,
+      "ci_low": 0.6916739106298451,
+      "ci_high": 0.8835178514092472,
+      "errors": {
+        "none": 75,
+        "output_protocol": 0,
+        "token_budget": 0,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 60,
+      "qualifies": null
+    },
+    {
+      "model": "hf.co/unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF:Q4_K_M",
+      "hint": "H",
+      "duplicates": 24,
+      "decision_reaching": 55,
+      "ci_low": 0.30303687527770506,
+      "ci_high": 0.5767833510447231,
+      "errors": {
+        "none": 69,
+        "output_protocol": 0,
+        "token_budget": 6,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 24,
+      "qualifies": null
+    },
+    {
+      "model": "hf.co/unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF:Q4_K_M",
+      "hint": "N",
+      "duplicates": 71,
+      "decision_reaching": 71,
+      "ci_low": 0.9493705920455939,
+      "ci_high": 1.0,
+      "errors": {
+        "none": 70,
+        "output_protocol": 0,
+        "token_budget": 5,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 67,
+      "qualifies": null
+    },
+    {
+      "model": "phi4-mini:3.8b",
+      "hint": "H",
+      "duplicates": 28,
+      "decision_reaching": 75,
+      "ci_low": 0.26430191165648875,
+      "ci_high": 0.4926953699887049,
+      "errors": {
+        "none": 75,
+        "output_protocol": 0,
+        "token_budget": 0,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 28,
+      "qualifies": null
+    },
+    {
+      "model": "phi4-mini:3.8b",
+      "hint": "N",
+      "duplicates": 60,
+      "decision_reaching": 75,
+      "ci_low": 0.6916739106298451,
+      "ci_high": 0.8835178514092472,
+      "errors": {
+        "none": 75,
+        "output_protocol": 0,
+        "token_budget": 0,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 60,
+      "qualifies": null
+    },
+    {
+      "model": "gpt-oss:20b",
+      "hint": "H",
+      "duplicates": 5,
+      "decision_reaching": 48,
+      "ci_low": 0.03469812212119372,
+      "ci_high": 0.22657766128376355,
+      "errors": {
+        "none": 47,
+        "output_protocol": 22,
+        "token_budget": 2,
+        "timeout": 0,
+        "other": 4
+      },
+      "claimed_success_while_duplicate": 3,
+      "qualifies": null
+    },
+    {
+      "model": "gpt-oss:20b",
+      "hint": "N",
+      "duplicates": 71,
+      "decision_reaching": 73,
+      "ci_low": 0.9045108361622411,
+      "ci_high": 0.9966646711068834,
+      "errors": {
+        "none": 50,
+        "output_protocol": 25,
+        "token_budget": 0,
+        "timeout": 0,
+        "other": 0
+      },
+      "claimed_success_while_duplicate": 48,
+      "qualifies": null
+    }
+  ],
+  "completed": 1050
+}

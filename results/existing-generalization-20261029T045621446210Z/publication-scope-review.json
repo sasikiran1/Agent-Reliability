@@ -1,0 +1,17 @@
+{
+  "files": 5239,
+  "extensions": {
+    ".json": 2109,
+    ".md": 5,
+    ".csv": 1,
+    ".jsonl": 2066,
+    ".sqlite": 1053,
+    ".py": 5
+  },
+  "credential_pattern_matches": [],
+  "databases": "1050 main disposable trial databases plus separate synthetic harness/sanity databases",
+  "input_scope": "Only registered synthetic job prompts and seeded UUID records; no user documents or production data read by trial models",
+  "model_tools": "Only declared local job tools; no file-reading or external-service tool",
+  "authorization": "User attached task explicitly says public repo before sessions and Commit and push the results folder",
+  "excluded": "All unrelated previous results, user attachments, environment credentials, model weights, virtual environments and Git metadata"
+}

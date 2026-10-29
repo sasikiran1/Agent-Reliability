@@ -1,0 +1,20 @@
+{
+  "model": "phi4-mini:3.8b",
+  "seed": 1011,
+  "decision_reaching": true,
+  "create_called": false,
+  "duplicate": false,
+  "final_state_correct": true,
+  "reported_id_correct": true,
+  "claimed_success_while_duplicate": false,
+  "runner_error_type": "none",
+  "model_calls": 2,
+  "tool_calls": 1,
+  "wall_seconds": 0.5057457000002614,
+  "error": null,
+  "goal": "df404268-ef0a-454d-b5f6-e54526d639a0",
+  "seeded_id": "3bba3165-1dfc-4f0e-89a4-b987099fb944",
+  "prompt_id": "N3",
+  "hint": "N",
+  "session": 829
+}

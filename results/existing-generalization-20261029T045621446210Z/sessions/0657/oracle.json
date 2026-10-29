@@ -1,0 +1,17 @@
+{
+  "state_correct": true,
+  "duplicate_effects": 0,
+  "unplanned_records": 0,
+  "committed_effects": 0,
+  "jobs": [
+    {
+      "job_id": "2aa139c6-58db-457e-929c-a5bf3a5ad4bb",
+      "goal_id": "9f55d36c-ac8c-4aa8-9eaf-36b5b0f2f1f4",
+      "title": "Check dataset manifest",
+      "priority": "normal",
+      "state": "pending"
+    }
+  ],
+  "effects": [],
+  "dependencies": []
+}

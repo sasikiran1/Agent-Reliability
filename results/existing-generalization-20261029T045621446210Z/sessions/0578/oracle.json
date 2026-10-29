@@ -1,0 +1,35 @@
+{
+  "state_correct": false,
+  "duplicate_effects": 1,
+  "unplanned_records": 0,
+  "committed_effects": 1,
+  "jobs": [
+    {
+      "job_id": "78ac34a0-ba6a-434e-a854-788e3adbbe7e",
+      "goal_id": "60a998a2-4f48-42f8-86a4-c25ceb2c1c8a",
+      "title": "Check dataset manifest",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "1def7425-a71f-48f3-be97-92d676e4c9cd",
+      "goal_id": "60a998a2-4f48-42f8-86a4-c25ceb2c1c8a",
+      "title": "Check dataset manifest",
+      "priority": "normal",
+      "state": "pending"
+    }
+  ],
+  "effects": [
+    {
+      "effect_id": "5ffd038e3bb7ed362bec683a95cee7d0",
+      "goal_id": "60a998a2-4f48-42f8-86a4-c25ceb2c1c8a",
+      "job_id": "1def7425-a71f-48f3-be97-92d676e4c9cd",
+      "attempt_id": "0ac5da86-cd47-4078-8e54-7d47996760b7",
+      "committed_utc": "2026-10-29T05:16:55.078Z",
+      "action": "create_job",
+      "before_json": null,
+      "after_json": "{\"title\":\"Check dataset manifest\",\"priority\":\"normal\",\"state\":\"pending\"}"
+    }
+  ],
+  "dependencies": []
+}

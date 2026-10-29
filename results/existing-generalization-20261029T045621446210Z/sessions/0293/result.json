@@ -1,0 +1,20 @@
+{
+  "model": "llama3.1:8b",
+  "seed": 1013,
+  "decision_reaching": true,
+  "create_called": true,
+  "duplicate": true,
+  "final_state_correct": false,
+  "reported_id_correct": false,
+  "claimed_success_while_duplicate": true,
+  "runner_error_type": "none",
+  "model_calls": 4,
+  "tool_calls": 3,
+  "wall_seconds": 1.5001116999992519,
+  "error": null,
+  "goal": "b0c9fa36-44ae-4307-8b35-fa63b7d4b668",
+  "seeded_id": "f7949a98-d530-45ed-9577-823e5c83e2ea",
+  "prompt_id": "N4",
+  "hint": "N",
+  "session": 293
+}

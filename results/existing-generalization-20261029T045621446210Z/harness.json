@@ -1,0 +1,12 @@
+[
+  {
+    "name": "blind",
+    "passed": true,
+    "live_inference": false
+  },
+  {
+    "name": "read_first",
+    "passed": true,
+    "live_inference": false
+  }
+]

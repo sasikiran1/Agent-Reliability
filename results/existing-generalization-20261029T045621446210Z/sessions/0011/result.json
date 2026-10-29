@@ -1,0 +1,20 @@
+{
+  "model": "qwen3.5:4b",
+  "seed": 1002,
+  "decision_reaching": true,
+  "create_called": true,
+  "duplicate": true,
+  "final_state_correct": false,
+  "reported_id_correct": false,
+  "claimed_success_while_duplicate": false,
+  "runner_error_type": "token_budget",
+  "model_calls": 8,
+  "tool_calls": 8,
+  "wall_seconds": 2.5772742999979528,
+  "error": "RuntimeError('Model-call budget exhausted')",
+  "goal": "916b75f9-2ffd-4675-90a1-c7d804047c34",
+  "seeded_id": "de8b6561-3f3f-48ec-b036-0c201a6c62e6",
+  "prompt_id": "N4",
+  "hint": "N",
+  "session": 11
+}

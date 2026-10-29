@@ -1,0 +1,17 @@
+{
+  "model": "llama3.1:8b",
+  "seed": 20261029,
+  "decision_reaching": true,
+  "create_called": true,
+  "duplicate": true,
+  "final_state_correct": false,
+  "reported_id_correct": true,
+  "claimed_success_while_duplicate": true,
+  "runner_error_type": "none",
+  "model_calls": 5,
+  "tool_calls": 4,
+  "wall_seconds": 1.5474410000024363,
+  "error": null,
+  "goal": "fbd2757f-5342-419f-854d-a9f7fc965b20",
+  "seeded_id": "1525aec4-3a1b-4ab7-86fd-f960d921b7be"
+}

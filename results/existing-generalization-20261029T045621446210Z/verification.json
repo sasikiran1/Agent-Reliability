@@ -1,0 +1,8 @@
+{
+  "completed": 1050,
+  "independently_audited_sql_sessions": 1050,
+  "sql_disagreements": [],
+  "frozen_protocol_and_source_hashes": "passed",
+  "plan_order_and_pairs": "passed",
+  "verification": "Read-only SQL re-expression and source checks; no model inference or new experiments"
+}

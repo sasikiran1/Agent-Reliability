@@ -1,0 +1,20 @@
+{
+  "model": "hf.co/unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF:Q4_K_M",
+  "seed": 1012,
+  "decision_reaching": true,
+  "create_called": false,
+  "duplicate": false,
+  "final_state_correct": true,
+  "reported_id_correct": true,
+  "claimed_success_while_duplicate": false,
+  "runner_error_type": "none",
+  "model_calls": 2,
+  "tool_calls": 1,
+  "wall_seconds": 13.404402799998934,
+  "error": null,
+  "goal": "110030e4-a913-4f95-b0a8-51a7d353d089",
+  "seeded_id": "75ec8bb5-2320-4b9d-9155-d3fca3c53ccd",
+  "prompt_id": "H5",
+  "hint": "H",
+  "session": 709
+}

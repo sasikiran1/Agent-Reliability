@@ -1,0 +1,20 @@
+{
+  "model": "hf.co/bartowski/Mistral-Nemo-Instruct-2407-GGUF:Q4_K_M",
+  "seed": 1007,
+  "decision_reaching": true,
+  "create_called": true,
+  "duplicate": true,
+  "final_state_correct": false,
+  "reported_id_correct": false,
+  "claimed_success_while_duplicate": true,
+  "runner_error_type": "none",
+  "model_calls": 3,
+  "tool_calls": 2,
+  "wall_seconds": 2.1131047000017134,
+  "error": null,
+  "goal": "ed2c4bdd-3e61-4c2e-803d-276c491d7ee4",
+  "seeded_id": "2d601a16-7acb-4a3f-8369-6da20f717704",
+  "prompt_id": "H3",
+  "hint": "H",
+  "session": 586
+}

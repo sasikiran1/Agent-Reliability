@@ -1,0 +1,20 @@
+{
+  "model": "gpt-oss:20b",
+  "seed": 1011,
+  "decision_reaching": false,
+  "create_called": true,
+  "duplicate": false,
+  "final_state_correct": true,
+  "reported_id_correct": false,
+  "claimed_success_while_duplicate": false,
+  "runner_error_type": "token_budget",
+  "model_calls": 8,
+  "tool_calls": 8,
+  "wall_seconds": 12.724596200001542,
+  "error": "RuntimeError('Model-call budget exhausted')",
+  "goal": "c89e2c7f-22aa-45ba-93bd-4d30a52cc827",
+  "seeded_id": "9bf0473b-6ad3-4a2a-8ed9-6ecd9c1ac4d2",
+  "prompt_id": "H4",
+  "hint": "H",
+  "session": 971
+}

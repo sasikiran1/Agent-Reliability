@@ -1,0 +1,20 @@
+{
+  "model": "gpt-oss:20b",
+  "seed": 1009,
+  "decision_reaching": true,
+  "create_called": true,
+  "duplicate": true,
+  "final_state_correct": false,
+  "reported_id_correct": false,
+  "claimed_success_while_duplicate": false,
+  "runner_error_type": "output_protocol",
+  "model_calls": 2,
+  "tool_calls": 1,
+  "wall_seconds": 2.1001133999961894,
+  "error": "KeyError('action')",
+  "goal": "1cfa5590-e13b-4dbd-8f06-78fcdfe8bb7d",
+  "seeded_id": "21ed1b76-9db6-405e-a524-1f50cd906c58",
+  "prompt_id": "N1",
+  "hint": "N",
+  "session": 1007
+}

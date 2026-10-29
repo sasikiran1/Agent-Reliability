@@ -1,0 +1,20 @@
+{
+  "model": "qwen3.5:4b",
+  "seed": 1008,
+  "decision_reaching": true,
+  "create_called": false,
+  "duplicate": false,
+  "final_state_correct": true,
+  "reported_id_correct": true,
+  "claimed_success_while_duplicate": false,
+  "runner_error_type": "none",
+  "model_calls": 2,
+  "tool_calls": 1,
+  "wall_seconds": 1.0828888000032748,
+  "error": null,
+  "goal": "d179ad19-c209-448c-b0b6-19bb37e1cd64",
+  "seeded_id": "2c1ca723-6b4e-4de5-8bff-913b7dc0b918",
+  "prompt_id": "H2",
+  "hint": "H",
+  "session": 58
+}

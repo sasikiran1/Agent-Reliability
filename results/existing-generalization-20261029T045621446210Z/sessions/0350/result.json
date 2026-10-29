@@ -1,0 +1,20 @@
+{
+  "model": "gemma4:12b",
+  "seed": 1002,
+  "decision_reaching": true,
+  "create_called": false,
+  "duplicate": false,
+  "final_state_correct": true,
+  "reported_id_correct": true,
+  "claimed_success_while_duplicate": false,
+  "runner_error_type": "none",
+  "model_calls": 2,
+  "tool_calls": 1,
+  "wall_seconds": 1.6154157999990275,
+  "error": null,
+  "goal": "f0f6bc2c-7ea2-4d39-a29c-ea52a76b6399",
+  "seeded_id": "9bca5090-2dc6-46cd-9f86-b982a1dc0172",
+  "prompt_id": "H4",
+  "hint": "H",
+  "session": 350
+}
