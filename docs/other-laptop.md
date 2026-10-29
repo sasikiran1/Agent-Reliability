@@ -4,7 +4,7 @@ This path needs Python 3.12, Git and local Ollama. It does not need Docker, WSL,
 
 ## Obtain and install
 
-Clone this repository, check out `study/first-auditable-experiment`, and open a terminal in its root. Keep the original results unchanged.
+Clone `https://github.com/sasikiran1/Agent-Reliability.git`, check out `main`, and open a terminal in its root. The repository is private, so use your GitHub account on the other laptop. Keep the original results unchanged.
 
 Windows PowerShell, with Python 3.12 installed:
 
