@@ -1,0 +1,85 @@
+{
+  "task_id": 107,
+  "intent_template_id": 270,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_revision": 2,
+  "status": "failure",
+  "score": 0.0,
+  "evaluators_results": [
+    {
+      "evaluator_name": "AgentResponseEvaluator",
+      "status": "failure",
+      "score": 0.0,
+      "actual": "{\n  \"task_type\": \"NAVIGATE\",\n  \"status\": \"SUCCESS\",\n  \"retrieved_data\": null,\n  \"error_details\": null\n}",
+      "actual_normalized": {
+        "task_type": "navigate",
+        "status": "success",
+        "retrieved_data": null
+      },
+      "expected": {
+        "task_type": "retrieve",
+        "status": "success",
+        "retrieved_data": [
+          {
+            "month": "May",
+            "count": 8.0
+          },
+          {
+            "month": "June",
+            "count": 13.0
+          },
+          {
+            "month": "July",
+            "count": 9.0
+          },
+          {
+            "month": "August",
+            "count": 8.0
+          },
+          {
+            "month": "September",
+            "count": 10.0
+          },
+          {
+            "month": "October",
+            "count": 4.0
+          },
+          {
+            "month": "November",
+            "count": 5.0
+          },
+          {
+            "month": "December",
+            "count": 10.0
+          }
+        ]
+      },
+      "assertions": [
+        {
+          "assertion_name": "agent_response.task_type_mismatch",
+          "status": "failure",
+          "assertion_msgs": [
+            "Expected retrieve, got navigate"
+          ],
+          "error_msg": null
+        },
+        {
+          "assertion_name": "retrieved_data_missing_or_null",
+          "status": "failure",
+          "assertion_msgs": [
+            "Expected retrieved_data to be ({'month': Month('May'), 'count': Number(8.0)}, {'month': Month('June'), 'count': Number(13.0)}, {'month': Month('July'), 'count': Number(9.0)}, {'month': Month('August'), 'count': Number(8.0)}, {'month': Month('September'), 'count': Number(10.0)}, {'month': Month('October'), 'count': Number(4.0)}, {'month': Month('November'), 'count': Number(5.0)}, {'month': Month('December'), 'count': Number(10.0)}), but got None or empty"
+          ],
+          "error_msg": null
+        }
+      ],
+      "error_msg": null,
+      "should_not_exist": null
+    }
+  ],
+  "error_msg": null,
+  "webarena_verified_version": "1.2.3",
+  "webarena_verified_evaluator_checksum": "ebb55ebefd94cebeaa17b108922eca3e0c0f85a7dec27798fa3bde73b3b645dd",
+  "webarena_verified_data_checksum": "315af52919d4afb5f5f168be58c796d35ff10d65cb49c9b762bf2b8b1c10b6cc"
+}

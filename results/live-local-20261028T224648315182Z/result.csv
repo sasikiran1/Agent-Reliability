@@ -1,0 +1,2 @@
+task_id,fixture_id,track,model,runner,supervisor_status,error,worker_status,worker_error,state_correct,committed_effects,duplicate_effects,model_calls,tool_calls,duration_s,task_duration_s,harm_assessed,application_load_harm,natural_recovery,output
+eae86f78-5075-4bbc-91a7-403d928604c2,document-review,controlled_development,llama3.1:8b,minimal,worker_exited,,finished,,False,0,0,2,3,10.684,3.8946292999899015,duplicate_effects_only,not_measured,not observed,C:\Users\kiran\Downloads\Agent-Reliability\results\live-local-20261028T224648315182Z

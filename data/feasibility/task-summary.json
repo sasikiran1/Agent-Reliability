@@ -1,0 +1,118 @@
+{
+  "seed": "20261028",
+  "dataset_sha256": "315af52919d4afb5f5f168be58c796d35ff10d65cb49c9b762bf2b8b1c10b6cc",
+  "total_tasks": 812,
+  "total_templates": 190,
+  "development_templates": 38,
+  "sites": {
+    "shopping_admin": 182,
+    "map": 109,
+    "shopping": 187,
+    "reddit": 106,
+    "gitlab": 180,
+    "map+wikipedia": 17,
+    "gitlab+reddit": 18,
+    "gitlab+wikipedia": 6,
+    "reddit+shopping": 5,
+    "map+shopping_admin": 2
+  },
+  "task_types": {
+    "retrieve": 320,
+    "navigate+unspecified": 113,
+    "retrieve+unspecified": 5,
+    "mutate+unspecified": 370,
+    "mutate": 4
+  },
+  "candidate_pilot_tasks": [
+    {
+      "task_id": 708,
+      "template_id": 268,
+      "sites": "shopping_admin",
+      "task_types": "navigate+unspecified",
+      "expected_statuses": "SUCCESS+unspecified",
+      "intent": "Show the tax report for for this year (today is March 15, 2023).",
+      "evaluator_types": "AgentResponseEvaluator+NetworkEventEvaluator",
+      "split": "development",
+      "annotation_status": "needs_independent_state_oracle_review"
+    },
+    {
+      "task_id": 0,
+      "template_id": 279,
+      "sites": "shopping_admin",
+      "task_types": "retrieve",
+      "expected_statuses": "SUCCESS",
+      "intent": "Get the top-1 best-selling product name(s) in 2022",
+      "evaluator_types": "AgentResponseEvaluator",
+      "split": "development",
+      "annotation_status": "needs_independent_state_oracle_review"
+    },
+    {
+      "task_id": 107,
+      "template_id": 270,
+      "sites": "shopping_admin",
+      "task_types": "retrieve",
+      "expected_statuses": "SUCCESS",
+      "intent": "Get the monthly count of completed orders from May 2022 through December 2022, inclusive. Return a list of objects with keys \"month\" (month name) and \"count\" (as integer) only, without any additional details.",
+      "evaluator_types": "AgentResponseEvaluator",
+      "split": "development",
+      "annotation_status": "needs_independent_state_oracle_review"
+    },
+    {
+      "task_id": 41,
+      "template_id": 285,
+      "sites": "shopping_admin",
+      "task_types": "retrieve",
+      "expected_statuses": "SUCCESS",
+      "intent": "Get the top 1 search term(s) in my store",
+      "evaluator_types": "AgentResponseEvaluator",
+      "split": "development",
+      "annotation_status": "needs_independent_state_oracle_review"
+    },
+    {
+      "task_id": 119,
+      "template_id": 250,
+      "sites": "shopping_admin",
+      "task_types": "retrieve",
+      "expected_statuses": "SUCCESS",
+      "intent": "Get title and rating for all reviews with 4 stars or above for Antonia Racer Tank. Return a list of objects with keys \"title\" and \"rating\".",
+      "evaluator_types": "AgentResponseEvaluator",
+      "split": "development",
+      "annotation_status": "needs_independent_state_oracle_review"
+    },
+    {
+      "task_id": 289,
+      "template_id": 234,
+      "sites": "shopping_admin",
+      "task_types": "retrieve",
+      "expected_statuses": "SUCCESS",
+      "intent": "Get the email address, name, phone number of the customer who has the most cancellations in the history. Return a list of objects with keys \"name\", \"email\", and \"phone_number\".",
+      "evaluator_types": "AgentResponseEvaluator",
+      "split": "development",
+      "annotation_status": "needs_independent_state_oracle_review"
+    },
+    {
+      "task_id": 196,
+      "template_id": 367,
+      "sites": "shopping_admin",
+      "task_types": "retrieve",
+      "expected_statuses": "SUCCESS",
+      "intent": "Get the payment difference between the last 4 cancelled orders and the last 4 completed orders. Return the value as a number (e.g., 10.99) only, without any additional details.",
+      "evaluator_types": "AgentResponseEvaluator",
+      "split": "development",
+      "annotation_status": "needs_independent_state_oracle_review"
+    },
+    {
+      "task_id": 472,
+      "template_id": 257,
+      "sites": "shopping_admin",
+      "task_types": "mutate+unspecified",
+      "expected_statuses": "SUCCESS+unspecified",
+      "intent": "Cancel order 299",
+      "evaluator_types": "AgentResponseEvaluator+NetworkEventEvaluator",
+      "split": "development",
+      "annotation_status": "needs_independent_state_oracle_review"
+    }
+  ],
+  "selection_uses_model_outcomes": false,
+  "main_sample_size": "pending feasibility, oracle audit, effect-size/precision calculation"
+}

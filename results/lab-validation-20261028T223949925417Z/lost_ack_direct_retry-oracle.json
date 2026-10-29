@@ -1,0 +1,37 @@
+{
+  "correct": false,
+  "jobs": [
+    {
+      "job_id": "1768e8d1-5801-484f-a083-b151ea33732e",
+      "goal_id": "lost_ack_direct_retry",
+      "title": "Check dataset manifest",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "320ab60e-b132-4b9d-894e-1c72a31644cc",
+      "goal_id": "lost_ack_direct_retry",
+      "title": "Check dataset manifest",
+      "priority": "normal",
+      "state": "pending"
+    }
+  ],
+  "effects": [
+    {
+      "effect_id": "8f223185-e5a4-401a-b5ae-d960b59d4aaf",
+      "goal_id": "lost_ack_direct_retry",
+      "job_id": "320ab60e-b132-4b9d-894e-1c72a31644cc",
+      "attempt_id": "0080b9ea-fda9-427f-bcbb-6ccbc970bcad",
+      "committed_utc": "2026-10-28T22:39:50.515590+00:00"
+    },
+    {
+      "effect_id": "9f27b105-591d-4575-8532-d356d95bc7fa",
+      "goal_id": "lost_ack_direct_retry",
+      "job_id": "1768e8d1-5801-484f-a083-b151ea33732e",
+      "attempt_id": "752a8c1e-2602-4c4f-91ac-6bb248f44b6b",
+      "committed_utc": "2026-10-28T22:39:50.509022+00:00"
+    }
+  ],
+  "duplicate_committed_effects": 1,
+  "final_state_sha256": "33f4ad251d270b4e567d108f5d90c4091f4444b2c37ba1a2123f2a4166a4bacf"
+}

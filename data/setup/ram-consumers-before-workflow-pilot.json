@@ -1,0 +1,77 @@
+﻿[
+    {
+        "ProcessName":  "vmmemWSL",
+        "Id":  30860,
+        "WorkingSetMiB":  1131.7
+    },
+    {
+        "ProcessName":  "MsMpEng",
+        "Id":  38444,
+        "WorkingSetMiB":  444.5
+    },
+    {
+        "ProcessName":  "Code",
+        "Id":  11672,
+        "WorkingSetMiB":  435.6
+    },
+    {
+        "ProcessName":  "Memory Compression",
+        "Id":  3704,
+        "WorkingSetMiB":  419.3
+    },
+    {
+        "ProcessName":  "ChatGPT",
+        "Id":  19076,
+        "WorkingSetMiB":  374.7
+    },
+    {
+        "ProcessName":  "Code",
+        "Id":  37312,
+        "WorkingSetMiB":  258.3
+    },
+    {
+        "ProcessName":  "audiodg",
+        "Id":  42484,
+        "WorkingSetMiB":  239.5
+    },
+    {
+        "ProcessName":  "WhatsApp.Root",
+        "Id":  17972,
+        "WorkingSetMiB":  231.4
+    },
+    {
+        "ProcessName":  "explorer",
+        "Id":  7832,
+        "WorkingSetMiB":  224.6
+    },
+    {
+        "ProcessName":  "Code",
+        "Id":  26604,
+        "WorkingSetMiB":  212.3
+    },
+    {
+        "ProcessName":  "msedge",
+        "Id":  43852,
+        "WorkingSetMiB":  184.6
+    },
+    {
+        "ProcessName":  "ChatGPT",
+        "Id":  27504,
+        "WorkingSetMiB":  183.3
+    },
+    {
+        "ProcessName":  "Code",
+        "Id":  7104,
+        "WorkingSetMiB":  179
+    },
+    {
+        "ProcessName":  "Dell.TechHub.Instrumentation.SubAgent",
+        "Id":  31992,
+        "WorkingSetMiB":  167.8
+    },
+    {
+        "ProcessName":  "ChatGPT",
+        "Id":  19340,
+        "WorkingSetMiB":  167.8
+    }
+]

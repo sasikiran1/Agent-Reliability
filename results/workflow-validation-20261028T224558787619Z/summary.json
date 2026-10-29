@@ -1,0 +1,56 @@
+{
+  "live_model": false,
+  "track": "constructed_measurement_validation",
+  "passed": true,
+  "checks": [
+    "readiness",
+    "explicit_error_no_commit",
+    "direct_multistep_persistent_correctness",
+    "cleanup_after_success",
+    "cleanup_after_exception",
+    "cleanup_after_actual_client_timeout",
+    "data_and_trigger_journal_rollback_together",
+    "independent_oracle_rejects_wrong_state_even_with_consistent_journal",
+    "journal_divergence_detected",
+    "reset_restores_exact_blank_state"
+  ],
+  "original_seed": {
+    "correct": false,
+    "journal_consistent": true,
+    "jobs": [
+      {
+        "job_id": "record-1",
+        "goal_id": "g",
+        "title": "Review training manifest",
+        "priority": "normal",
+        "state": "pending"
+      },
+      {
+        "job_id": "record-2",
+        "goal_id": "g",
+        "title": "Review dataset manifest",
+        "priority": "normal",
+        "state": "pending"
+      },
+      {
+        "job_id": "record-3",
+        "goal_id": "g",
+        "title": "Review deployment manifest",
+        "priority": "normal",
+        "state": "pending"
+      }
+    ],
+    "effects": [],
+    "dependencies": [],
+    "duplicate_committed_effects": 0,
+    "extra_update_effects": 0,
+    "final_state_sha256": "2d8f5e191bc495cc7ffe7f92d48ed7fee2c64fd75b5906c1f4f81d4f0ba9b539"
+  },
+  "interventions": [
+    "caller_exception",
+    "100ms_reply_delay_and_10ms_client_timeout",
+    "transaction_rollback",
+    "deliberate_wrong_state_and_journal_corruption"
+  ],
+  "output": "C:\\Users\\kiran\\Downloads\\Agent-Reliability\\results\\workflow-validation-20261028T224558787619Z"
+}

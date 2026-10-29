@@ -1,0 +1,17 @@
+{
+  "model": "llama3.1:8b",
+  "created_at": "2026-10-28T22:46:41.7353818Z",
+  "message": {
+    "role": "assistant",
+    "content": "I'm ready when you are. What"
+  },
+  "done": true,
+  "done_reason": "length",
+  "total_duration": 5145034800,
+  "load_duration": 4856677500,
+  "prompt_eval_count": 13,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 115047000,
+  "eval_count": 8,
+  "eval_duration": 164854000
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "fe6c3462-05c8-442c-9799-f3aa2ba03249",
+  "track": "controlled_development",
+  "model": "llama3.1:8b",
+  "runner": "minimal",
+  "supervisor_status": "worker_exited",
+  "error": null,
+  "worker_status": "finished",
+  "worker_error": null,
+  "state_correct": true,
+  "committed_effects": 1,
+  "duplicate_effects": 0,
+  "model_calls": 2,
+  "tool_calls": 1,
+  "duration_s": 12.603,
+  "harm_assessed": "duplicate_effects_only",
+  "application_load_harm": "not_measured",
+  "natural_recovery": "not observed",
+  "output": "C:\\Users\\kiran\\Downloads\\Agent-Reliability\\results\\live-local-20261028T224124205980Z"
+}

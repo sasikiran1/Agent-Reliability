@@ -1,0 +1,10 @@
+{
+  "id": "manifest-review",
+  "records": [
+    "Review training manifest",
+    "Review dataset manifest",
+    "Review deployment manifest"
+  ],
+  "target": "Review dataset manifest",
+  "followup": "Archive dataset manifest review"
+}

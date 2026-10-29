@@ -1,0 +1,5 @@
+check,live_model,intervention,committed_effects,duplicate_effects,passed
+nominal_direct,False,none,1,0,True
+lost_ack_direct_retry,False,lost_commit_ack_then_one_explicit_retry,2,1,True
+lost_ack_idempotent_retry,False,lost_commit_ack_then_one_explicit_retry,1,0,True
+wrong_value_duplicate_partial_state_key_conflict_and_reset,False,deliberate_SQL_state_changes_on_disposable_data,,,True

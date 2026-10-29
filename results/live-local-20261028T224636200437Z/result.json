@@ -1,0 +1,22 @@
+{
+  "task_id": "ca44f65a-1ec2-4272-9fd2-29ac55238d45",
+  "fixture_id": "manifest-review",
+  "track": "controlled_development",
+  "model": "llama3.1:8b",
+  "runner": "minimal",
+  "supervisor_status": "worker_exited",
+  "error": null,
+  "worker_status": "finished",
+  "worker_error": null,
+  "state_correct": false,
+  "committed_effects": 0,
+  "duplicate_effects": 0,
+  "model_calls": 2,
+  "tool_calls": 3,
+  "duration_s": 11.862,
+  "task_duration_s": 5.185863099992275,
+  "harm_assessed": "duplicate_effects_only",
+  "application_load_harm": "not_measured",
+  "natural_recovery": "not observed",
+  "output": "C:\\Users\\kiran\\Downloads\\Agent-Reliability\\results\\live-local-20261028T224636200437Z"
+}

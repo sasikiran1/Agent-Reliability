@@ -1,0 +1,3 @@
+# Lighter graph runner than the full browser-agent stack; no model provider integration.
+-r requirements-pilot.in
+langgraph>=1,<2

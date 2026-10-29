@@ -1,0 +1,12 @@
+﻿{
+    "live_model":  false,
+    "host_stop_threshold_kib":  1048576,
+    "ports":  "loopback only",
+    "container_retained":  false,
+    "utc":  "2026-10-28T19:23:23.5637056Z",
+    "cpu_cap":  2,
+    "model_calls":  0,
+    "ram_cap_mib":  1536,
+    "benchmark_tasks_attempted":  0,
+    "outcome":  "not_started_resource_gate"
+}

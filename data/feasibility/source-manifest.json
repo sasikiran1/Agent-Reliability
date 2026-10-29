@@ -1,0 +1,23 @@
+[
+  {
+    "name": "webarena-verified",
+    "url": "https://github.com/ServiceNow/webarena-verified",
+    "commit": "6473f72db5dcefc97b5725b59e734504edc28a21",
+    "readme_sha256": "6e5199d4d7963fceea54508ead5654a48ed5a7c5b038583cbf198739d03698ff",
+    "source_pin_only": true
+  },
+  {
+    "name": "WorkArena",
+    "url": "https://github.com/ServiceNow/WorkArena",
+    "commit": "e885130962f61fb64ac305497996a46cfc7d18f0",
+    "readme_sha256": "59fc00c3d1f9ae6cb0efd8f267d1458c003f61350dfca636aea079028fba3622",
+    "source_pin_only": true
+  },
+  {
+    "name": "AgentLab",
+    "url": "https://github.com/ServiceNow/AgentLab",
+    "commit": "8488c564eea0525aaff5dea189bb03a9b529546e",
+    "readme_sha256": "88c0a37365fa9f8ecb9444e967df29baf8acd44ecffbe4ccfdf1feb483cb7c74",
+    "source_pin_only": true
+  }
+]

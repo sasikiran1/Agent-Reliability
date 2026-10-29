@@ -1,0 +1,133 @@
+﻿{
+    "Id":  "sha256:d0531dd27ed98d0c459ff9e88118bf2ed8b660b0ed99c38837db46c065a5be13",
+    "RepoTags":  [
+                     "am1n3e/webarena-verified-shopping_admin:latest"
+                 ],
+    "RepoDigests":  [
+                        "am1n3e/webarena-verified-shopping_admin@sha256:d0531dd27ed98d0c459ff9e88118bf2ed8b660b0ed99c38837db46c065a5be13"
+                    ],
+    "Comment":  "buildkit.dockerfile.v0",
+    "Created":  "2026-01-30T17:00:36.228163197+01:00",
+    "Config":  {
+                   "ExposedPorts":  {
+                                        "11211/tcp":  {
+
+                                                      },
+                                        "11300/tcp":  {
+
+                                                      },
+                                        "25/tcp":  {
+
+                                                   },
+                                        "3306/tcp":  {
+
+                                                     },
+                                        "5432/tcp":  {
+
+                                                     },
+                                        "6379/tcp":  {
+
+                                                     },
+                                        "80/tcp":  {
+
+                                                   },
+                                        "88/tcp":  {
+
+                                                   },
+                                        "8871/tcp":  {
+
+                                                     },
+                                        "8877/tcp":  {
+
+                                                     },
+                                        "9000/tcp":  {
+
+                                                     },
+                                        "9200/tcp":  {
+
+                                                     },
+                                        "9300/tcp":  {
+
+                                                     }
+                                    },
+                   "Env":  [
+                               "WA_ENV_CTRL_TYPE=shopping_admin",
+                               "BUILD_BASE_URL=http://localhost:51061/",
+                               "BUILD_TIMEOUT=300",
+                               "BUILD_DRY_RUN=false",
+                               "BUILD_ENV_CTRL_SRC=/build-env-ctrl",
+                               "WA_ENV_CTRL_ROOT=/opt",
+                               "PATH=/usr/share/java/elasticsearch/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                               "PHPIZE_DEPS=autoconf \t\tdpkg-dev dpkg \t\tfile \t\tg++ \t\tgcc \t\tlibc-dev \t\tmake \t\tpkgconf \t\tre2c",
+                               "PHP_INI_DIR=/usr/local/etc/php",
+                               "PHP_CFLAGS=-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64",
+                               "PHP_CPPFLAGS=-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64",
+                               "PHP_LDFLAGS=-Wl,-O1 -pie",
+                               "GPG_KEYS=528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 39B641343D8C104B2B146DC3F9C39DC0B9698544 F1F692238FBC1666E5A5CCD4199F9DFEF6FFBAFD",
+                               "PHP_VERSION=8.1.17",
+                               "PHP_URL=https://www.php.net/distributions/php-8.1.17.tar.xz",
+                               "PHP_ASC_URL=https://www.php.net/distributions/php-8.1.17.tar.xz.asc",
+                               "PHP_SHA256=b5c48f95b8e1d8624dd05fc2eab7be13277f9a203ccba97bdca5a1a0fb4a1460",
+                               "MAXMIND_VERSION=1.4.2",
+                               "SWOOLE_VERSION=4.8.9",
+                               "SWOOLE_ASYNC_VERSION=4.5.5",
+                               "LD_PRELOAD=/usr/lib/preloadable_libiconv.so",
+                               "PECL_EXTENSIONS_FUTURE=imagick ssh2-1.3.1 xlswriter",
+                               "PECL_EXTENSIONS=apcu ast ds ev grpc igbinary lzf memcached mongodb msgpack oauth pcov phalcon psr redis rdkafka simdjson uuid xdebug xhprof yaf yaml",
+                               "PHP_EXTENSIONS=bcmath bz2 calendar exif gd gettext gmp imap intl ldap mysqli pcntl pdo_mysql pgsql pdo_pgsql     pspell shmop soap sockets sysvshm sysvmsg sysvsem tidy xsl zip",
+                               "ADMINER_VERSION=4.8.1",
+                               "ES_HOME=/usr/share/java/elasticsearch",
+                               "WA_ENV_CTRL_AVAILABLE=true",
+                               "WA_ENV_CTRL_ENABLE=true",
+                               "WA_ENV_CTRL_PORT=8877",
+                               "WA_ENV_CTRL_EXTERNAL_SITE_URL=http://localhost:7780",
+                               "WA_CONTAINER_PORT=80",
+                               "NGINX_WORKER_PROCESSES=2",
+                               "ES_JAVA_OPTS=-Xms512m -Xmx512m",
+                               "MYSQL_INNODB_BUFFER_POOL_SIZE=256M",
+                               "MYSQL_MAX_CONNECTIONS=20"
+                           ],
+                   "Entrypoint":  [
+                                      "/custom-entrypoint.sh"
+                                  ],
+                   "Cmd":  [
+                               "supervisord",
+                               "-n",
+                               "-j",
+                               "/supervisord.pid"
+                           ],
+                   "WorkingDir":  "/var/www/html",
+                   "StopSignal":  "SIGQUIT",
+                   "ArgsEscaped":  true
+               },
+    "Architecture":  "amd64",
+    "Os":  "linux",
+    "Size":  4488579565,
+    "RootFS":  {
+                   "Type":  "layers",
+                   "Layers":  [
+                                  "sha256:64f8865f3fbb8aa68b349d1aea3343f278aca0d70c6f56037bea9253a73d5693",
+                                  "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                                  "sha256:00004c71c56367e75f4c8de86cde35592652afd484f6e8ed02ae8be0f90ef932",
+                                  "sha256:adfccc9a68da03368dd8bf4ef2f996ba2dfcfb7a03c0a991c4ebe9fa2ffe9462",
+                                  "sha256:974d4b090c0056ea0c24b9b2dca004fbfea6c7be0c2abcb559780495eb8ac1f2",
+                                  "sha256:6ba24a8cdbf18f709b8fa5e0f7d3342ff7594e6f236a60ec320de5af17c77f2f",
+                                  "sha256:853b1eea87a9b56e1479a4b2a429eb2293ccc15d266bf4e0ce8165f79e08fb21"
+                              ]
+               },
+    "Metadata":  {
+                     "LastTagTime":  "2026-10-28T19:15:38.744977171Z"
+                 },
+    "Descriptor":  {
+                       "mediaType":  "application/vnd.docker.distribution.manifest.v2+json",
+                       "digest":  "sha256:d0531dd27ed98d0c459ff9e88118bf2ed8b660b0ed99c38837db46c065a5be13",
+                       "size":  1775
+                   },
+    "Identity":  {
+                     "Pull":  [
+                                  {
+                                      "Repository":  "docker.io/am1n3e/webarena-verified-shopping_admin"
+                                  }
+                              ]
+                 }
+}

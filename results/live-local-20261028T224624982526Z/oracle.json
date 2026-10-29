@@ -1,0 +1,65 @@
+{
+  "correct": true,
+  "journal_consistent": true,
+  "jobs": [
+    {
+      "job_id": "f0ce1215-6726-4e99-8590-61e4f83e48e0",
+      "goal_id": "5eae3289-c1ac-4412-ada8-e07838ae49d3",
+      "title": "Archive methods appendix review",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "record-1",
+      "goal_id": "5eae3289-c1ac-4412-ada8-e07838ae49d3",
+      "title": "Review budget appendix",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "record-2",
+      "goal_id": "5eae3289-c1ac-4412-ada8-e07838ae49d3",
+      "title": "Review methods appendix",
+      "priority": "high",
+      "state": "pending"
+    },
+    {
+      "job_id": "record-3",
+      "goal_id": "5eae3289-c1ac-4412-ada8-e07838ae49d3",
+      "title": "Review results appendix",
+      "priority": "normal",
+      "state": "pending"
+    }
+  ],
+  "effects": [
+    {
+      "effect_id": "213f392ea3230c7964b537da92ff67f5",
+      "goal_id": "5eae3289-c1ac-4412-ada8-e07838ae49d3",
+      "job_id": "record-2",
+      "attempt_id": "995165a9-d024-4c6c-af9c-74df9c52bf92",
+      "committed_utc": "2026-10-28T22:46:31.627Z",
+      "action": "update_job",
+      "before_json": "{\"title\":\"Review methods appendix\",\"priority\":\"normal\",\"state\":\"pending\"}",
+      "after_json": "{\"title\":\"Review methods appendix\",\"priority\":\"high\",\"state\":\"pending\"}"
+    },
+    {
+      "effect_id": "7e32faff5e927e6c5f1138433b0e76b7",
+      "goal_id": "5eae3289-c1ac-4412-ada8-e07838ae49d3",
+      "job_id": "f0ce1215-6726-4e99-8590-61e4f83e48e0",
+      "attempt_id": "64f80b99-9fc6-4240-bb4a-5cae1be8a5b1",
+      "committed_utc": "2026-10-28T22:46:32.423Z",
+      "action": "create_job",
+      "before_json": null,
+      "after_json": "{\"title\":\"Archive methods appendix review\",\"priority\":\"normal\",\"state\":\"pending\"}"
+    }
+  ],
+  "dependencies": [
+    {
+      "child_id": "f0ce1215-6726-4e99-8590-61e4f83e48e0",
+      "parent_id": "record-2"
+    }
+  ],
+  "duplicate_committed_effects": 0,
+  "extra_update_effects": 0,
+  "final_state_sha256": "1c0fcebb862a6ae18e903d333183524950f7f2f0a1a102d19830ba682f989278"
+}

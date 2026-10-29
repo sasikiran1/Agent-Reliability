@@ -1,0 +1,23 @@
+{
+  "correct": true,
+  "jobs": [
+    {
+      "job_id": "01d0abfb-9cab-444e-9b83-32a03ec87073",
+      "goal_id": "fe6c3462-05c8-442c-9799-f3aa2ba03249",
+      "title": "Check dataset manifest",
+      "priority": "normal",
+      "state": "pending"
+    }
+  ],
+  "effects": [
+    {
+      "effect_id": "08cdc0c3-2417-40b9-b426-01816bbe6304",
+      "goal_id": "fe6c3462-05c8-442c-9799-f3aa2ba03249",
+      "job_id": "01d0abfb-9cab-444e-9b83-32a03ec87073",
+      "attempt_id": "4691c232-7b38-4de3-bea3-d137c0bb788b",
+      "committed_utc": "2026-10-28T22:41:35.664305+00:00"
+    }
+  ],
+  "duplicate_committed_effects": 0,
+  "final_state_sha256": "35413893b60d5ffcccf2ba214ad2d27680781a9a7667a95fae583a8eb004456c"
+}

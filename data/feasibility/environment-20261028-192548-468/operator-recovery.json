@@ -1,0 +1,13 @@
+﻿{
+    "record_type":  "retrospective_operator_recovery",
+    "utc":  "2026-10-28T19:29:17.4030283Z",
+    "original_outcome_missing_reason":  "log warning interrupted old finally block",
+    "observed_last_free_ram_kib":  1003976,
+    "observed_elapsed_ms":  22512,
+    "action":  "explicit docker stop of study container",
+    "confirmed_running":  false,
+    "confirmed_oom_killed":  false,
+    "benchmark_tasks_attempted":  0,
+    "live_model":  false,
+    "causal_scope":  "harness setup only"
+}

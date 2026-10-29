@@ -1,0 +1,32 @@
+{
+  "correct": false,
+  "journal_consistent": true,
+  "jobs": [
+    {
+      "job_id": "record-1",
+      "goal_id": "eae86f78-5075-4bbc-91a7-403d928604c2",
+      "title": "Review budget appendix",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "record-2",
+      "goal_id": "eae86f78-5075-4bbc-91a7-403d928604c2",
+      "title": "Review methods appendix",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "record-3",
+      "goal_id": "eae86f78-5075-4bbc-91a7-403d928604c2",
+      "title": "Review results appendix",
+      "priority": "normal",
+      "state": "pending"
+    }
+  ],
+  "effects": [],
+  "dependencies": [],
+  "duplicate_committed_effects": 0,
+  "extra_update_effects": 0,
+  "final_state_sha256": "298d999af90398ea7486837abaee4f71db0b81fcc55e40ea6f548c5d58d0e4f6"
+}

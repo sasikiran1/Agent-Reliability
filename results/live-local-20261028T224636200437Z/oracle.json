@@ -1,0 +1,32 @@
+{
+  "correct": false,
+  "journal_consistent": true,
+  "jobs": [
+    {
+      "job_id": "record-1",
+      "goal_id": "ca44f65a-1ec2-4272-9fd2-29ac55238d45",
+      "title": "Review training manifest",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "record-2",
+      "goal_id": "ca44f65a-1ec2-4272-9fd2-29ac55238d45",
+      "title": "Review dataset manifest",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "record-3",
+      "goal_id": "ca44f65a-1ec2-4272-9fd2-29ac55238d45",
+      "title": "Review deployment manifest",
+      "priority": "normal",
+      "state": "pending"
+    }
+  ],
+  "effects": [],
+  "dependencies": [],
+  "duplicate_committed_effects": 0,
+  "extra_update_effects": 0,
+  "final_state_sha256": "437930666d0af0a6be550de264ccb209cdc463dc4014ac7bddca550d5e793683"
+}

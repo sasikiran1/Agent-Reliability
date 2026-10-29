@@ -1,0 +1,1 @@
+Start gate: less than 2 GiB host RAM available

@@ -1,0 +1,87 @@
+{
+  "model": "llama3.1:8b",
+  "runner": "minimal",
+  "task_id": "fe6c3462-05c8-442c-9799-f3aa2ba03249",
+  "track": "controlled_development",
+  "live_model": true,
+  "protocol_sha256": "016d18c9221f76906c41f10cc5f60ce46db49388804c857e0b422d59fa2a7a57",
+  "source_sha256": {
+    "run_local_pilot.py": "ed934cec4b4073cea3f9a070ac8e4e1075e335e2846c43f92a333aa2d3b984d5",
+    "pilot_worker.py": "ef0501b2529def12236a464c9f889eca23da695898959491f9f69aa9fc0ebd8d",
+    "local_lab.py": "7d960b5a51db9c2c813edae69bfcf3397bc0a39f4423cae3fb5a14aa5bc7cf2d"
+  },
+  "interventions": [
+    "researcher_created_task_and_application",
+    "thinking_disabled_for_qwen"
+  ],
+  "retry_settings": {
+    "transport_retries": 0,
+    "framework_node_retry": null,
+    "max_model_calls": 4,
+    "max_tool_calls": 8
+  },
+  "context_tokens": 4096,
+  "output_cap": 512,
+  "natural_recovery": "not observed",
+  "runtime": {
+    "version": "0.40.10"
+  },
+  "model_metadata": {
+    "name": "llama3.1:8b",
+    "model": "llama3.1:8b",
+    "modified_at": "2026-10-28T14:59:14.0415177-04:00",
+    "size": 4920753328,
+    "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 131072,
+      "embedding_length": 4096,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ]
+  },
+  "loaded_before_unload": {
+    "models": [
+      {
+        "name": "llama3.1:8b",
+        "model": "llama3.1:8b",
+        "size": 5280104447,
+        "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "8.0B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-28T18:43:36.5268685-04:00",
+        "size_vram": 5280104447,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "unload_response": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-10-28T22:41:36.7240595Z",
+    "response": "",
+    "done": true,
+    "done_reason": "unload"
+  },
+  "loaded_after_unload": {
+    "models": []
+  }
+}

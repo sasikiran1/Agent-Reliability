@@ -1,0 +1,42 @@
+{
+  "track": "controlled_harness_validation",
+  "live_model": false,
+  "checks": [
+    {
+      "check": "nominal_direct",
+      "live_model": false,
+      "intervention": "none",
+      "committed_effects": 1,
+      "duplicate_effects": 0,
+      "passed": true
+    },
+    {
+      "check": "lost_ack_direct_retry",
+      "live_model": false,
+      "intervention": "lost_commit_ack_then_one_explicit_retry",
+      "committed_effects": 2,
+      "duplicate_effects": 1,
+      "passed": true
+    },
+    {
+      "check": "lost_ack_idempotent_retry",
+      "live_model": false,
+      "intervention": "lost_commit_ack_then_one_explicit_retry",
+      "committed_effects": 1,
+      "duplicate_effects": 0,
+      "passed": true
+    },
+    {
+      "check": "wrong_value_duplicate_partial_state_key_conflict_and_reset",
+      "live_model": false,
+      "intervention": "deliberate_SQL_state_changes_on_disposable_data",
+      "committed_effects": "",
+      "duplicate_effects": "",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "natural_tasks": 0,
+  "recovery_measured": false,
+  "limitations": "Researcher-created job application and explicit interventions; not a natural incident or published reproduction"
+}

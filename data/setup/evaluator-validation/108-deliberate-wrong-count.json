@@ -1,0 +1,113 @@
+{
+  "task_id": 108,
+  "intent_template_id": 270,
+  "sites": [
+    "shopping_admin"
+  ],
+  "task_revision": 2,
+  "status": "failure",
+  "score": 0.0,
+  "evaluators_results": [
+    {
+      "evaluator_name": "AgentResponseEvaluator",
+      "status": "failure",
+      "score": 0.0,
+      "actual": {
+        "task_type": "RETRIEVE",
+        "status": "SUCCESS",
+        "retrieved_data": [
+          {
+            "month": "Jan",
+            "count": -999
+          },
+          {
+            "month": "Feb",
+            "count": -999
+          },
+          {
+            "month": "March",
+            "count": -999
+          },
+          {
+            "month": "April",
+            "count": -999
+          },
+          {
+            "month": "May",
+            "count": -999
+          }
+        ],
+        "error_details": null
+      },
+      "actual_normalized": {
+        "task_type": "retrieve",
+        "status": "success",
+        "retrieved_data": [
+          {
+            "month": "January",
+            "count": -999.0
+          },
+          {
+            "month": "February",
+            "count": -999.0
+          },
+          {
+            "month": "March",
+            "count": -999.0
+          },
+          {
+            "month": "April",
+            "count": -999.0
+          },
+          {
+            "month": "May",
+            "count": -999.0
+          }
+        ]
+      },
+      "expected": {
+        "task_type": "retrieve",
+        "status": "success",
+        "retrieved_data": [
+          {
+            "month": "January",
+            "count": 12.0
+          },
+          {
+            "month": "February",
+            "count": 7.0
+          },
+          {
+            "month": "March",
+            "count": 5.0
+          },
+          {
+            "month": "April",
+            "count": 9.0
+          },
+          {
+            "month": "May",
+            "count": 5.0
+          }
+        ]
+      },
+      "assertions": [
+        {
+          "assertion_name": "retrieved_data_array_values_mismatch",
+          "status": "failure",
+          "assertion_msgs": [
+            "Array value mismatch (unordered). Matched (0/5), Missing: 5, Extra: 5",
+            "Expected: [{'month': Month('January'), 'count': Number(12.0)}, {'month': Month('February'), 'count': Number(7.0)}, ..., {'month': Month('May'), 'count': Number(5.0)}], Got: [{'month': Month('Jan' -> 'January'), 'count': Number(-999.0)}, {'month': Month('Feb' -> 'February'), 'count': Number(-999.0)}, ..., {'month': Month('May'), 'count': Number(-999.0)}]"
+          ],
+          "error_msg": null
+        }
+      ],
+      "error_msg": null,
+      "should_not_exist": null
+    }
+  ],
+  "error_msg": null,
+  "webarena_verified_version": "1.2.3",
+  "webarena_verified_evaluator_checksum": "ebb55ebefd94cebeaa17b108922eca3e0c0f85a7dec27798fa3bde73b3b645dd",
+  "webarena_verified_data_checksum": "315af52919d4afb5f5f168be58c796d35ff10d65cb49c9b762bf2b8b1c10b6cc"
+}

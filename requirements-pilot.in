@@ -1,0 +1,5 @@
+# Local benchmark preparation only; AgentLab will have a separate resolved environment.
+# The editable source checkout MUST match data/feasibility/source-manifest.json.
+-e ./vendor/webarena-verified
+playwright>=1.55,<2
+psutil>=7,<8

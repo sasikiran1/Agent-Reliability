@@ -1,0 +1,26 @@
+{
+  "correct": true,
+  "jobs": [
+    {
+      "job_id": "07be2333-ab20-4df3-9d62-efe3eca1f3e6",
+      "goal_id": "nominal_direct",
+      "title": "Check dataset manifest",
+      "priority": "normal",
+      "state": "pending"
+    }
+  ],
+  "effects": [
+    {
+      "effect_id": "4f5b929dd2df22a94d09b1b47f75d484",
+      "goal_id": "nominal_direct",
+      "job_id": "07be2333-ab20-4df3-9d62-efe3eca1f3e6",
+      "attempt_id": "b380ebd9-62cc-4939-a963-82a3e3f0a81e",
+      "committed_utc": "2026-10-28T22:43:50.617Z",
+      "action": "create_job",
+      "before_json": null,
+      "after_json": "{\"title\":\"Check dataset manifest\",\"priority\":\"normal\",\"state\":\"pending\"}"
+    }
+  ],
+  "duplicate_committed_effects": 0,
+  "final_state_sha256": "18bb0adea51db284774275e8a740ba1f4b583e8516884929c586ae5e93f6b856"
+}

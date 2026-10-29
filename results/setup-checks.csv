@@ -1,0 +1,5 @@
+check_id,track,live_model,benchmark_tasks_attempted,status,evidence
+webarena-shopping-admin-preflight-20261028,controlled_setup,false,0,not_started_resource_gate,data/feasibility/environment/setup-error.txt
+webarena-shopping-admin-preflight-20261028-192323,controlled_setup,false,0,not_started_resource_gate,data/feasibility/environment-20261028-192323-140/outcome.json
+webarena-shopping-admin-startup-20261028-192548,controlled_setup,false,0,ram_threshold_crossed_cleanup_error_then_explicit_stop,data/feasibility/environment-20261028-192548-468/container-after-manual-stop.json
+offline-evaluator-fixtures-20261028,controlled_setup,false,0,three_expected_outcomes_matched,data/setup/evaluator-validation/summary.json

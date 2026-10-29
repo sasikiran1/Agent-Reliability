@@ -1,0 +1,3 @@
+task_id,track,model,status,model_calls,tool_calls,tool_read_verified,duration_ms,harm_assessed,duplicate_effects,natural_recovery,context_truncation,summary_correctness
+launch-20261028,setup,,execution_policy_error,0,0,false,,false,,not observed,not applicable,not applicable
+smoke-20261028-145702,controlled_setup,qwen3.5:4b,cancelled_resource_threshold_and_harness_stall,1,0,false,,false,,not observed,unknown,ungraded

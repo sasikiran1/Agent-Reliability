@@ -1,0 +1,65 @@
+{
+  "correct": true,
+  "journal_consistent": true,
+  "jobs": [
+    {
+      "job_id": "70d41c5d-5f75-4ece-b5ef-0fc148c58435",
+      "goal_id": "e6449722-5422-4662-90c6-759d7b71b7f1",
+      "title": "Archive dataset manifest review",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "record-1",
+      "goal_id": "e6449722-5422-4662-90c6-759d7b71b7f1",
+      "title": "Review training manifest",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "record-2",
+      "goal_id": "e6449722-5422-4662-90c6-759d7b71b7f1",
+      "title": "Review dataset manifest",
+      "priority": "high",
+      "state": "pending"
+    },
+    {
+      "job_id": "record-3",
+      "goal_id": "e6449722-5422-4662-90c6-759d7b71b7f1",
+      "title": "Review deployment manifest",
+      "priority": "normal",
+      "state": "pending"
+    }
+  ],
+  "effects": [
+    {
+      "effect_id": "7fa0af12e7ee5681f5defb6169b76086",
+      "goal_id": "e6449722-5422-4662-90c6-759d7b71b7f1",
+      "job_id": "record-2",
+      "attempt_id": "32dab376-d144-4ab8-a138-8f14a6c83a24",
+      "committed_utc": "2026-10-28T22:46:20.380Z",
+      "action": "update_job",
+      "before_json": "{\"title\":\"Review dataset manifest\",\"priority\":\"normal\",\"state\":\"pending\"}",
+      "after_json": "{\"title\":\"Review dataset manifest\",\"priority\":\"high\",\"state\":\"pending\"}"
+    },
+    {
+      "effect_id": "954a159b6867de93e90cecb785ffc597",
+      "goal_id": "e6449722-5422-4662-90c6-759d7b71b7f1",
+      "job_id": "70d41c5d-5f75-4ece-b5ef-0fc148c58435",
+      "attempt_id": "56d2aa79-e48d-4112-b7d9-a21cc083d1bc",
+      "committed_utc": "2026-10-28T22:46:21.159Z",
+      "action": "create_job",
+      "before_json": null,
+      "after_json": "{\"title\":\"Archive dataset manifest review\",\"priority\":\"normal\",\"state\":\"pending\"}"
+    }
+  ],
+  "dependencies": [
+    {
+      "child_id": "70d41c5d-5f75-4ece-b5ef-0fc148c58435",
+      "parent_id": "record-2"
+    }
+  ],
+  "duplicate_committed_effects": 0,
+  "extra_update_effects": 0,
+  "final_state_sha256": "d4c3d70cba6f3204054662b082db0ac46a150480d9493debabd8c2f7a9e53a55"
+}

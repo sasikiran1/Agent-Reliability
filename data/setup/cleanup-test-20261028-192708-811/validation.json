@@ -1,0 +1,9 @@
+﻿{
+    "live_model":  false,
+    "real_container_launched":  false,
+    "intervention":  "mocked low RAM and log capture exception",
+    "stop_called":  false,
+    "outcome_preserved":  true,
+    "expected_error":  "deliberately injected log-capture failure",
+    "passed":  false
+}

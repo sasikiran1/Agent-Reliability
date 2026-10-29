@@ -1,0 +1,23 @@
+{
+  "correct": true,
+  "jobs": [
+    {
+      "job_id": "b5ffff92-a627-4050-959f-6fed6d53bdd0",
+      "goal_id": "lost_ack_idempotent_retry",
+      "title": "Check dataset manifest",
+      "priority": "normal",
+      "state": "pending"
+    }
+  ],
+  "effects": [
+    {
+      "effect_id": "f6f493d9-0547-4875-ab4c-0ab0f806d96c",
+      "goal_id": "lost_ack_idempotent_retry",
+      "job_id": "b5ffff92-a627-4050-959f-6fed6d53bdd0",
+      "attempt_id": "2162dacd-96ae-487b-9c26-1e4afa7f49b9",
+      "committed_utc": "2026-10-28T22:39:51.066111+00:00"
+    }
+  ],
+  "duplicate_committed_effects": 0,
+  "final_state_sha256": "1289ce23636cdced28dd25cca806fc243f0c8ca51c462be0f06aaa2de2476f8d"
+}

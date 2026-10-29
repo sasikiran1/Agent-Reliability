@@ -1,0 +1,278 @@
+﻿[
+    {
+        "Id": "d52d47e3e4c38d176f4a37f34858246e1ffc6d660fb4d050474c4215bd2057a8",
+        "Created": "2026-10-28T19:25:49.133802849Z",
+        "Path": "/custom-entrypoint.sh",
+        "Args": [
+            "supervisord",
+            "-n",
+            "-j",
+            "/supervisord.pid"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 95338,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-10-28T19:25:49.292646998Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:d0531dd27ed98d0c459ff9e88118bf2ed8b660b0ed99c38837db46c065a5be13",
+        "ResolvConfPath": "/var/lib/docker/containers/d52d47e3e4c38d176f4a37f34858246e1ffc6d660fb4d050474c4215bd2057a8/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/d52d47e3e4c38d176f4a37f34858246e1ffc6d660fb4d050474c4215bd2057a8/hostname",
+        "HostsPath": "/var/lib/docker/containers/d52d47e3e4c38d176f4a37f34858246e1ffc6d660fb4d050474c4215bd2057a8/hosts",
+        "LogPath": "",
+        "Name": "/ars-shopping-admin-feasibility",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "local",
+                "Config": {}
+            },
+            "NetworkMode": "bridge",
+            "PortBindings": {
+                "80/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": "17780"
+                    }
+                ],
+                "8877/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": "17781"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 1610612736,
+            "NanoCpus": 2000000000,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 1610612736,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": 256,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "d52d47e3e4c3",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "11211/tcp": {},
+                "11300/tcp": {},
+                "25/tcp": {},
+                "3306/tcp": {},
+                "5432/tcp": {},
+                "6379/tcp": {},
+                "80/tcp": {},
+                "88/tcp": {},
+                "8871/tcp": {},
+                "8877/tcp": {},
+                "9000/tcp": {},
+                "9200/tcp": {},
+                "9300/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "WA_ENV_CTRL_TYPE=shopping_admin",
+                "BUILD_BASE_URL=http://localhost:51061/",
+                "BUILD_TIMEOUT=300",
+                "BUILD_DRY_RUN=false",
+                "BUILD_ENV_CTRL_SRC=/build-env-ctrl",
+                "WA_ENV_CTRL_ROOT=/opt",
+                "PATH=/usr/share/java/elasticsearch/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "PHPIZE_DEPS=autoconf \t\tdpkg-dev dpkg \t\tfile \t\tg++ \t\tgcc \t\tlibc-dev \t\tmake \t\tpkgconf \t\tre2c",
+                "PHP_INI_DIR=/usr/local/etc/php",
+                "PHP_CFLAGS=-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64",
+                "PHP_CPPFLAGS=-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64",
+                "PHP_LDFLAGS=-Wl,-O1 -pie",
+                "GPG_KEYS=528995BFEDFBA7191D46839EF9BA0ADA31CBD89E 39B641343D8C104B2B146DC3F9C39DC0B9698544 F1F692238FBC1666E5A5CCD4199F9DFEF6FFBAFD",
+                "PHP_VERSION=8.1.17",
+                "PHP_URL=https://www.php.net/distributions/php-8.1.17.tar.xz",
+                "PHP_ASC_URL=https://www.php.net/distributions/php-8.1.17.tar.xz.asc",
+                "PHP_SHA256=b5c48f95b8e1d8624dd05fc2eab7be13277f9a203ccba97bdca5a1a0fb4a1460",
+                "MAXMIND_VERSION=1.4.2",
+                "SWOOLE_VERSION=4.8.9",
+                "SWOOLE_ASYNC_VERSION=4.5.5",
+                "LD_PRELOAD=/usr/lib/preloadable_libiconv.so",
+                "PECL_EXTENSIONS_FUTURE=imagick ssh2-1.3.1 xlswriter",
+                "PECL_EXTENSIONS=apcu ast ds ev grpc igbinary lzf memcached mongodb msgpack oauth pcov phalcon psr redis rdkafka simdjson uuid xdebug xhprof yaf yaml",
+                "PHP_EXTENSIONS=bcmath bz2 calendar exif gd gettext gmp imap intl ldap mysqli pcntl pdo_mysql pgsql pdo_pgsql     pspell shmop soap sockets sysvshm sysvmsg sysvsem tidy xsl zip",
+                "ADMINER_VERSION=4.8.1",
+                "ES_HOME=/usr/share/java/elasticsearch",
+                "WA_ENV_CTRL_AVAILABLE=true",
+                "WA_ENV_CTRL_ENABLE=true",
+                "WA_ENV_CTRL_PORT=8877",
+                "WA_ENV_CTRL_EXTERNAL_SITE_URL=http://localhost:7780",
+                "WA_CONTAINER_PORT=80",
+                "NGINX_WORKER_PROCESSES=2",
+                "ES_JAVA_OPTS=-Xms512m -Xmx512m",
+                "MYSQL_INNODB_BUFFER_POOL_SIZE=256M",
+                "MYSQL_MAX_CONNECTIONS=20"
+            ],
+            "Cmd": [
+                "supervisord",
+                "-n",
+                "-j",
+                "/supervisord.pid"
+            ],
+            "Image": "am1n3e/webarena-verified-shopping_admin@sha256:d0531dd27ed98d0c459ff9e88118bf2ed8b660b0ed99c38837db46c065a5be13",
+            "Volumes": null,
+            "WorkingDir": "/var/www/html",
+            "Entrypoint": [
+                "/custom-entrypoint.sh"
+            ],
+            "Labels": {
+                "agent-reliability-study": "feasibility"
+            },
+            "StopSignal": "SIGQUIT"
+        },
+        "NetworkSettings": {
+            "SandboxID": "b6b5b7e6ac707c11771b26eeb9f6f27a58ade43f3f2413878ecc23c223bab51c",
+            "SandboxKey": "/var/run/docker/netns/b6b5b7e6ac70",
+            "Ports": {
+                "80/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": "17780"
+                    }
+                ],
+                "8877/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": "17781"
+                    }
+                ]
+            },
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "ce3b812147780681a9aa4c31d683409d9510539eef287bd8b43cd0318f497992",
+                    "EndpointID": "7f286e46ccea21c4a25464f6a149ec690216d437ec7581f61452bd28d8cc9c75",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "MacAddress": "f6:bd:db:bf:0f:8a",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:d0531dd27ed98d0c459ff9e88118bf2ed8b660b0ed99c38837db46c065a5be13",
+            "size": 1775,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

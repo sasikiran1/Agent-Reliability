@@ -1,0 +1,154 @@
+﻿[
+    {
+        "run":  "live-local-20261028T224613540125Z",
+        "errors":  [
+
+                   ],
+        "minimum_available_MiB":  1678.1,
+        "max_prompt_tokens":  1298,
+        "model":  "qwen3.5:4b",
+        "loaded":  {
+                       "models":  [
+                                      {
+                                          "name":  "qwen3.5:4b",
+                                          "model":  "qwen3.5:4b",
+                                          "size":  3140495604,
+                                          "digest":  "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+                                          "details":  {
+                                                          "parent_model":  "",
+                                                          "format":  "gguf",
+                                                          "family":  "qwen35",
+                                                          "families":  [
+                                                                           "qwen35"
+                                                                       ],
+                                                          "parameter_size":  "4.2B",
+                                                          "quantization_level":  "Q4_K_M"
+                                                      },
+                                          "expires_at":  "2026-10-28T18:48:24.0012509-04:00",
+                                          "size_vram":  3140495604,
+                                          "context_length":  4096,
+                                          "runner":  "llamacpp"
+                                      }
+                                  ]
+                   },
+        "unloaded":  {
+                         "models":  [
+
+                                    ]
+                     }
+    },
+    {
+        "run":  "live-local-20261028T224624982526Z",
+        "errors":  [
+
+                   ],
+        "minimum_available_MiB":  1945.9,
+        "max_prompt_tokens":  1262,
+        "model":  "qwen3.5:4b",
+        "loaded":  {
+                       "models":  [
+                                      {
+                                          "name":  "qwen3.5:4b",
+                                          "model":  "qwen3.5:4b",
+                                          "size":  3140495604,
+                                          "digest":  "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+                                          "details":  {
+                                                          "parent_model":  "",
+                                                          "format":  "gguf",
+                                                          "family":  "qwen35",
+                                                          "families":  [
+                                                                           "qwen35"
+                                                                       ],
+                                                          "parameter_size":  "4.2B",
+                                                          "quantization_level":  "Q4_K_M"
+                                                      },
+                                          "expires_at":  "2026-10-28T18:48:34.9613832-04:00",
+                                          "size_vram":  3140495604,
+                                          "context_length":  4096,
+                                          "runner":  "llamacpp"
+                                      }
+                                  ]
+                   },
+        "unloaded":  {
+                         "models":  [
+
+                                    ]
+                     }
+    },
+    {
+        "run":  "live-local-20261028T224636200437Z",
+        "errors":  [
+
+                   ],
+        "minimum_available_MiB":  2434,
+        "max_prompt_tokens":  412,
+        "model":  "llama3.1:8b",
+        "loaded":  {
+                       "models":  [
+                                      {
+                                          "name":  "llama3.1:8b",
+                                          "model":  "llama3.1:8b",
+                                          "size":  5280104447,
+                                          "digest":  "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+                                          "details":  {
+                                                          "parent_model":  "",
+                                                          "format":  "gguf",
+                                                          "family":  "llama",
+                                                          "families":  [
+                                                                           "llama"
+                                                                       ],
+                                                          "parameter_size":  "8.0B",
+                                                          "quantization_level":  "Q4_K_M"
+                                                      },
+                                          "expires_at":  "2026-10-28T18:48:46.9230733-04:00",
+                                          "size_vram":  5280104447,
+                                          "context_length":  4096,
+                                          "runner":  "llamacpp"
+                                      }
+                                  ]
+                   },
+        "unloaded":  {
+                         "models":  [
+
+                                    ]
+                     }
+    },
+    {
+        "run":  "live-local-20261028T224648315182Z",
+        "errors":  [
+
+                   ],
+        "minimum_available_MiB":  2516.2,
+        "max_prompt_tokens":  403,
+        "model":  "llama3.1:8b",
+        "loaded":  {
+                       "models":  [
+                                      {
+                                          "name":  "llama3.1:8b",
+                                          "model":  "llama3.1:8b",
+                                          "size":  5280104447,
+                                          "digest":  "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+                                          "details":  {
+                                                          "parent_model":  "",
+                                                          "format":  "gguf",
+                                                          "family":  "llama",
+                                                          "families":  [
+                                                                           "llama"
+                                                                       ],
+                                                          "parameter_size":  "8.0B",
+                                                          "quantization_level":  "Q4_K_M"
+                                                      },
+                                          "expires_at":  "2026-10-28T18:48:58.1204278-04:00",
+                                          "size_vram":  5280104447,
+                                          "context_length":  4096,
+                                          "runner":  "llamacpp"
+                                      }
+                                  ]
+                   },
+        "unloaded":  {
+                         "models":  [
+
+                                    ]
+                     }
+    }
+]

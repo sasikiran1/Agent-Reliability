@@ -1,0 +1,65 @@
+{
+  "correct": true,
+  "journal_consistent": true,
+  "jobs": [
+    {
+      "job_id": "01305633-f4b3-43e5-981f-066238c70cf1",
+      "goal_id": "g",
+      "title": "Archive dataset manifest review",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "record-1",
+      "goal_id": "g",
+      "title": "Review training manifest",
+      "priority": "normal",
+      "state": "pending"
+    },
+    {
+      "job_id": "record-2",
+      "goal_id": "g",
+      "title": "Review dataset manifest",
+      "priority": "high",
+      "state": "pending"
+    },
+    {
+      "job_id": "record-3",
+      "goal_id": "g",
+      "title": "Review deployment manifest",
+      "priority": "normal",
+      "state": "pending"
+    }
+  ],
+  "effects": [
+    {
+      "effect_id": "025ad9097ae31d095178b449e68a4e90",
+      "goal_id": "g",
+      "job_id": "record-2",
+      "attempt_id": "2c04ff5a-41b0-4570-bb77-4bc791143632",
+      "committed_utc": "2026-10-28T22:45:58.846Z",
+      "action": "update_job",
+      "before_json": "{\"title\":\"Review dataset manifest\",\"priority\":\"normal\",\"state\":\"pending\"}",
+      "after_json": "{\"title\":\"Review dataset manifest\",\"priority\":\"high\",\"state\":\"pending\"}"
+    },
+    {
+      "effect_id": "14e7f70ff32e9d19f55fd283f8e8dbc7",
+      "goal_id": "g",
+      "job_id": "01305633-f4b3-43e5-981f-066238c70cf1",
+      "attempt_id": "aafdd7c0-6380-4f18-bc3d-01cec2560b25",
+      "committed_utc": "2026-10-28T22:45:58.852Z",
+      "action": "create_job",
+      "before_json": null,
+      "after_json": "{\"title\":\"Archive dataset manifest review\",\"priority\":\"normal\",\"state\":\"pending\"}"
+    }
+  ],
+  "dependencies": [
+    {
+      "child_id": "01305633-f4b3-43e5-981f-066238c70cf1",
+      "parent_id": "record-2"
+    }
+  ],
+  "duplicate_committed_effects": 0,
+  "extra_update_effects": 0,
+  "final_state_sha256": "4ca91d7e061915d50c8a53ba8ac81242f8ffe1a25fd67111ec30eda9c3e5b8bf"
+}

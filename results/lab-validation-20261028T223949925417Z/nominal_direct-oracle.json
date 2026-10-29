@@ -1,0 +1,23 @@
+{
+  "correct": true,
+  "jobs": [
+    {
+      "job_id": "e6af719c-e301-422c-bbe6-9580aadce425",
+      "goal_id": "nominal_direct",
+      "title": "Check dataset manifest",
+      "priority": "normal",
+      "state": "pending"
+    }
+  ],
+  "effects": [
+    {
+      "effect_id": "245441b3-d10c-495b-9c3b-e1d524379971",
+      "goal_id": "nominal_direct",
+      "job_id": "e6af719c-e301-422c-bbe6-9580aadce425",
+      "attempt_id": "66152c85-ef76-41de-aea3-51da11d80a0d",
+      "committed_utc": "2026-10-28T22:39:49.975650+00:00"
+    }
+  ],
+  "duplicate_committed_effects": 0,
+  "final_state_sha256": "739318eb38bc6c0bdc103d979c31538aaa254dcea5a5c6b49f1a8154cf606b25"
+}

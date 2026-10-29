@@ -1,0 +1,183 @@
+{
+  "model": "llama3.1:8b",
+  "runner": "minimal",
+  "task_id": "eae86f78-5075-4bbc-91a7-403d928604c2",
+  "track": "controlled_development",
+  "live_model": true,
+  "protocol_sha256": "698386d1a90c9a583c658cfa65ab0f0d41d9b820925b6f493c4d5db506553759",
+  "source_sha256": {
+    "run_local_pilot.py": "b2c0a807e53938319291a1c7806fe66ea3d9dd0ba54a860c6e6c756920563d21",
+    "pilot_worker.py": "3e8c5a6fb90f09a030060e1b7e621429b719c435055c0e94921fd6b226e28bb2",
+    "local_lab.py": "e90d5c6834e02c02983e5be62f3a7d5f26dc32bf3e4bf5702fa8ebfe140b0775"
+  },
+  "interventions": [
+    "researcher_created_task_and_application",
+    "thinking_disabled_for_qwen"
+  ],
+  "retry_settings": {
+    "transport_retries": 0,
+    "framework_node_retry": null,
+    "max_model_calls": 8,
+    "max_tool_calls": 12
+  },
+  "context_tokens": 4096,
+  "output_cap": 512,
+  "natural_recovery": "not observed",
+  "task_fixture": {
+    "id": "document-review",
+    "records": [
+      "Review budget appendix",
+      "Review methods appendix",
+      "Review results appendix"
+    ],
+    "target": "Review methods appendix",
+    "followup": "Archive methods appendix review"
+  },
+  "packages": {
+    "annotated-types": "0.8.0",
+    "anyio": "4.15.1",
+    "attrs": "26.1.0",
+    "beautifulsoup4": "4.14.2",
+    "certifi": "2026.10.23",
+    "charset-normalizer": "3.5.2",
+    "click": "8.5.0",
+    "compact-json": "1.8.1",
+    "decorator": "5.3.1",
+    "distro": "1.9.0",
+    "flexcache": "0.3",
+    "flexparser": "0.4",
+    "future": "1.0.0",
+    "geocoder": "1.38.1",
+    "geographiclib": "2.1",
+    "geopy": "2.4.1",
+    "greenlet": "3.5.6",
+    "h11": "0.16.0",
+    "httpcore": "1.0.9",
+    "httpcore2": "2.16.0",
+    "httpx": "0.28.1",
+    "httpx2": "2.16.0",
+    "idna": "3.20",
+    "importlib_resources": "7.1.0",
+    "jellyfish": "1.3.0",
+    "jsonpatch": "1.38",
+    "jsonpath-ng": "1.7.0",
+    "jsonpointer": "3.6",
+    "langchain-core": "1.7.1",
+    "langchain-protocol": "0.0.20",
+    "langgraph": "1.2.18",
+    "langgraph-checkpoint": "4.3.1",
+    "langgraph-prebuilt": "1.1.1",
+    "langgraph-sdk": "0.4.10",
+    "langsmith": "0.14.14",
+    "orjson": "3.13.0",
+    "ormsgpack": "1.13.0",
+    "packaging": "26.3",
+    "Pint": "0.25",
+    "platformdirs": "4.14.0",
+    "playwright": "1.64.1",
+    "ply": "3.11",
+    "price-parser": "0.5.0",
+    "probableparsing": "0.0.1",
+    "psutil": "7.2.2",
+    "pydantic": "2.12.0",
+    "pydantic_core": "2.41.1",
+    "pyee": "14.0.0",
+    "python-crfsuite": "0.9.12",
+    "python-dateutil": "2.9.0.post0",
+    "pytimeparse2": "1.7.1",
+    "PyYAML": "6.0.3",
+    "RapidFuzz": "3.14.6",
+    "ratelim": "0.1.6",
+    "requests": "2.34.2",
+    "requests-toolbelt": "1.0.0",
+    "setuptools": "84.2.1",
+    "six": "1.17.0",
+    "sniffio": "1.3.1",
+    "soupsieve": "3.0.4",
+    "tenacity": "9.2.1",
+    "thefuzz": "0.22.1",
+    "truststore": "0.10.5",
+    "typing_extensions": "4.16.0",
+    "typing-inspection": "0.4.4",
+    "Unidecode": "1.4.0",
+    "urllib3": "2.8.0",
+    "url-normalize": "2.2.1",
+    "us": "3.2.0",
+    "usaddress": "0.5.16",
+    "usaddress-scourgify": "0.6.0",
+    "uuid_utils": "0.19.0",
+    "wcwidth": "0.9.4",
+    "webarena-verified": "1.2.3",
+    "websockets": "17.3",
+    "word2number": "1.1",
+    "xxhash": "4.0.2",
+    "yaml-config": "0.1.5",
+    "zstandard": "0.25.0"
+  },
+  "runtime": {
+    "version": "0.40.10"
+  },
+  "model_metadata": {
+    "name": "llama3.1:8b",
+    "model": "llama3.1:8b",
+    "modified_at": "2026-10-28T14:59:14.0415177-04:00",
+    "size": 4920753328,
+    "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 131072,
+      "embedding_length": 4096,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ]
+  },
+  "application_readiness": {
+    "journal": "transactional_database_triggers",
+    "ready": true,
+    "storage": "sqlite"
+  },
+  "loaded_before_unload": {
+    "models": [
+      {
+        "name": "llama3.1:8b",
+        "model": "llama3.1:8b",
+        "size": 5280104447,
+        "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "8.0B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-28T18:48:58.1204278-04:00",
+        "size_vram": 5280104447,
+        "context_length": 4096,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "unload_response": {
+    "model": "llama3.1:8b",
+    "created_at": "2026-10-28T22:46:58.9235138Z",
+    "response": "",
+    "done": true,
+    "done_reason": "unload"
+  },
+  "loaded_after_unload": {
+    "models": []
+  }
+}

@@ -1,0 +1,108 @@
+{
+    "models":  [
+                   {
+                       "name":  "llama3.1:8b",
+                       "model":  "llama3.1:8b",
+                       "modified_at":  "2026-10-28T14:59:14.0415177-04:00",
+                       "size":  4920753328,
+                       "digest":  "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+                       "details":  {
+                                       "parent_model":  "",
+                                       "format":  "gguf",
+                                       "family":  "llama",
+                                       "families":  [
+                                                        "llama"
+                                                    ],
+                                       "parameter_size":  "8.0B",
+                                       "quantization_level":  "Q4_K_M",
+                                       "context_length":  131072,
+                                       "embedding_length":  4096,
+                                       "runner":  "ggml"
+                                   },
+                       "capabilities":  [
+                                            "completion",
+                                            "tools"
+                                        ]
+                   },
+                   {
+                       "name":  "qwen3.5:4b",
+                       "model":  "qwen3.5:4b",
+                       "modified_at":  "2026-10-28T14:51:57.4888099-04:00",
+                       "size":  3324173934,
+                       "digest":  "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+                       "details":  {
+                                       "parent_model":  "model.gguf",
+                                       "format":  "gguf",
+                                       "family":  "qwen35",
+                                       "families":  [
+                                                        "qwen35"
+                                                    ],
+                                       "parameter_size":  "4.2B",
+                                       "quantization_level":  "Q4_K_M",
+                                       "context_length":  262144,
+                                       "embedding_length":  2560,
+                                       "runner":  "llamacpp"
+                                   },
+                       "capabilities":  [
+                                            "completion",
+                                            "vision",
+                                            "tools",
+                                            "thinking"
+                                        ]
+                   },
+                   {
+                       "name":  "gemma4-12b-16k:latest",
+                       "model":  "gemma4-12b-16k:latest",
+                       "modified_at":  "2026-10-24T19:11:43.8468381-04:00",
+                       "size":  8021618957,
+                       "digest":  "61d4626bfb6cb772f62a94d562088ea34a427d32f86b20f15c13441823f19b54",
+                       "details":  {
+                                       "parent_model":  "gemma4:12b",
+                                       "format":  "gguf",
+                                       "family":  "gemma4",
+                                       "families":  [
+                                                        "gemma4"
+                                                    ],
+                                       "parameter_size":  "11.9B",
+                                       "quantization_level":  "Q4_K_M",
+                                       "context_length":  262144,
+                                       "embedding_length":  3840,
+                                       "runner":  "llamacpp"
+                                   },
+                       "capabilities":  [
+                                            "completion",
+                                            "vision",
+                                            "audio",
+                                            "tools",
+                                            "thinking"
+                                        ]
+                   },
+                   {
+                       "name":  "gemma4:12b",
+                       "model":  "gemma4:12b",
+                       "modified_at":  "2026-10-24T19:11:28.4981864-04:00",
+                       "size":  8021618941,
+                       "digest":  "6114515d63c17436a7c0417d82820ac65ad643e2806c5a3c89cb62846436ed0b",
+                       "details":  {
+                                       "parent_model":  "imatrix-20260927-12b/model-q4_K_M.gguf",
+                                       "format":  "gguf",
+                                       "family":  "gemma4",
+                                       "families":  [
+                                                        "gemma4"
+                                                    ],
+                                       "parameter_size":  "11.9B",
+                                       "quantization_level":  "Q4_K_M",
+                                       "context_length":  262144,
+                                       "embedding_length":  3840,
+                                       "runner":  "llamacpp"
+                                   },
+                       "capabilities":  [
+                                            "completion",
+                                            "vision",
+                                            "audio",
+                                            "tools",
+                                            "thinking"
+                                        ]
+                   }
+               ]
+}

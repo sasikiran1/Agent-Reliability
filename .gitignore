@@ -1,0 +1,5 @@
+__pycache__/
+.venv/
+.tools/
+# Source pins and hashes are recorded in data/feasibility/source-manifest.json.
+vendor/

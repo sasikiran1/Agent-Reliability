@@ -1,0 +1,8 @@
+{
+  "status": "finished",
+  "error": null,
+  "model_calls": 5,
+  "tool_calls": 4,
+  "task_duration_s": 4.5133738000295125,
+  "warmup_completed": true
+}
